@@ -17,7 +17,7 @@ func main() {
 	}
 
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		w.Write([]byte("Hello, World!"))
+		w.Write([]byte("Hello, Rila Bagus Mustofa"))
 	})
 
 	log.Printf("Server running on %s", server.Addr)
